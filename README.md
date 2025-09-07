@@ -58,15 +58,4 @@ joblib.dump(list(X_train.columns), "minimal_signature_genes.pkl")
 joblib.dump(X_train.mean(), "minimal_signature_means.pkl")
 ```
 
-This ensures your **model**, **gene list**, and **means** are in sync with your dataset.
-
-## Interpretation
-- Stage and Grade are strong predictors of HBV etiology.
-- Immune-related and proliferation genes are enriched in HBV cases.
-- Combined modality outperforms single modalities, showing added value of expression data.
-
-### Run Locally
-```bash
-python app.py
-```
-You will see a local URL (e.g., http://127.0.0.1:7860). Open it in a browser to adjust gene values and view predicted probability and classification.
+This ensures **model**, **gene list**, and **means** are in sync with your dataset.
