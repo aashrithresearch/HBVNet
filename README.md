@@ -29,10 +29,7 @@ pip install -r requirements.txt
 Open the notebook and run all cells to preprocess data, train model, and save artifacts. Download clinical metadata, and attach via files.upload 
 
 ### 3. Launch Gradio App
-```bash
-python app.py
-```
-Open the local URL or public share link to use the interactive classifier.
+Open the local URL linked in the ``app.ipynb`` or public share link to use the interactive classifier.
 
 ## Retraining & Regenerating Artifacts
 To retrain the minimal signature model and regenerate the files used by the Gradio app:
